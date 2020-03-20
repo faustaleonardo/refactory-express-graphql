@@ -3,39 +3,39 @@
 ### Install sequelize-cli globally
 
 ```
-npm i -g sequelize-cli
+$ npm i -g sequelize-cli
 ```
 
 ### Rename .env.example to .env file and set up your database configuration
 
-### Install dependencies
+### Install the dependencies
 
 ```
-npm i
+$ npm i
 
 ```
 
 ### Create database
 
 ```
-sequelize db:create
+$ sequelize db:create
 ```
 
 ### Migrate database
 
 ```
-sequelize db:migrate
+$ sequelize db:migrate
 ```
 
 ### Seed database
 
 ```
-sequelize db:seed:all
+$ sequelize db:seed:all
 ```
 
 ### Run the app
 
 ```
-npm run start
+$ npm run start
 
 ```
